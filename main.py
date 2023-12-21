@@ -3,8 +3,6 @@ def gcd(a, b):
         a, b = b, a % b
     return a
 
-str = ""
-
 def simplify_fraction(numerator, denominator):
     common = gcd(numerator, denominator)
     return numerator // common, denominator // common
