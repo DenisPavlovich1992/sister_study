@@ -84,8 +84,6 @@ def divide_fractions(expression):
 
     return result_numerator, result_denominator
 
-# Остальной код остается без изменений
-
 
 while(True):
     user_input = input("Введите выражение с дробями (например, 1/3 + 2/5 с пробелами): ")  # Получение ввода от пользователя
